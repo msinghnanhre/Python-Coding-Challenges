@@ -30,12 +30,8 @@ def mergeSort(arr):
             arr[k] = right[j]
             j += 1
             k += 1
+    return arr
 
 
-def printList(arr):
-    for i in range(len(arr)):
-        print(arr[i], end=" ")
-    print()
+print(mergeSort(arr))
 
-mergeSort(arr)
-printList(arr)
